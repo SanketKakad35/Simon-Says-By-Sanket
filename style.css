@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 2rem;
+    border: 0.5rem solid black;
+    margin: 1rem;
+}
+
+.red {
+    background-color: rgba(228, 62, 62, 0.806);
+}
+
+.green {
+    background-color: rgba(57, 232, 57, 0.822);
+}
+
+.yellow {
+    background-color: rgba(243, 243, 41, 0.792);
+}
+
+.blue {
+    background-color: rgba(75, 75, 234, 0.808);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: rgba(201, 211, 204, 0.808);
+}
+
+.greenFlash {
+    background-color: rgba(181, 236, 181, 0.836);
+}
+
+.looseFlash {
+    background-color: rgba(237, 193, 193, 0.961);
+}
+
+@media (max-width : 500px) {
+    .body {
+        font-size: 0.8rem;
+    }
+
+    .box {
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+@media (min-width : 1250px) {
+    .submit {
+        display: none;
+    }
+}
+
+.submit {
+    margin-top: 1.5rem;
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    width: 7rem;
+    font-weight: 600;
+    border-radius: 0.7rem;
+    /* border : 0.2rem solid rgb(231, 238, 150); */
+    box-shadow: 0.1rem 0.1rem 0.3rem black;
+}
+
+.submit:active {
+    height: 2.2rem;
+    width: 6.8rem;
+}
